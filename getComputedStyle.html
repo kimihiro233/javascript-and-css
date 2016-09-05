@@ -1,0 +1,22 @@
+<html>
+<head>
+<style>
+div#content {
+	width: 1000px;
+	padding: 20px;
+}
+</style>
+<script type="javascript/text">
+window.onload=function() {
+	var obj = document.getElementById("content");
+	var height = getComputedStyle(obj, null)["height"];
+	var width = getComputedStyle(obj, null)["width"];
+	obj.innerHTML = "height:" + height +"/twidth:" + width;
+}
+</script>
+</head>
+<body>
+	<div id="content">
+	</div>
+</body>
+</html>
