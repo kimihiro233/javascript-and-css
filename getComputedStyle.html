@@ -1,17 +1,20 @@
 <html>
 <head>
 <style>
+* {
+	margin : 0 auto;
+}
 div#content {
-	width: 1000px;
-	padding: 20px;
+	/* width : 1000px; */
+	padding : 20px;
 }
 </style>
-<script type="javascript/text">
+<script>
 window.onload=function() {
 	var obj = document.getElementById("content");
 	var height = getComputedStyle(obj, null)["height"];
 	var width = getComputedStyle(obj, null)["width"];
-	obj.innerHTML = "height:" + height +"/twidth:" + width;
+	obj.innerHTML = "height:" + height +",width:" + width;
 }
 </script>
 </head>
