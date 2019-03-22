@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.d5c3d16d3d46d3084e350b7ab29b76ba.js"
+  "/javascript-and-css/precache-manifest.c59b7689cd602bd0a60f185a4834079b.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "tsView"});
