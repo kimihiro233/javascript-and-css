@@ -1,6 +1,6 @@
 self.__precacheManifest = [
   {
-    "revision": "735ab4f94fbcd57074377afca324c813",
+    "revision": "618c4b8779bf5fa2d162a662b7b116dd",
     "url": "/javascript-and-css/robots.txt"
   },
   {
